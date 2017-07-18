@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8693EC71F1B90F7000262AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8693EC61F1B90F7000262AC /* AppDelegate.swift */; };
-		E8693EC91F1B90F7000262AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8693EC81F1B90F7000262AC /* ViewController.swift */; };
-		E8693ECC1F1B90F7000262AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8693ECA1F1B90F7000262AC /* Main.storyboard */; };
-		E8693ECE1F1B90F7000262AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8693ECD1F1B90F7000262AC /* Assets.xcassets */; };
-		E8693ED11F1B90F7000262AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8693ECF1F1B90F7000262AC /* LaunchScreen.storyboard */; };
+		E8F6F6D81F1E599F00945414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6CD1F1E599F00945414 /* AppDelegate.swift */; };
+		E8F6F6D91F1E599F00945414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F6F6CE1F1E599F00945414 /* Assets.xcassets */; };
+		E8F6F6DA1F1E599F00945414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6F6CF1F1E599F00945414 /* LaunchScreen.storyboard */; };
+		E8F6F6DB1F1E599F00945414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6F6D11F1E599F00945414 /* Main.storyboard */; };
+		E8F6F6DC1F1E599F00945414 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6D31F1E599F00945414 /* Contact.swift */; };
+		E8F6F6DD1F1E599F00945414 /* ContactsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6D41F1E599F00945414 /* ContactsTableTableViewController.swift */; };
+		E8F6F6DE1F1E599F00945414 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6D51F1E599F00945414 /* DetailViewController.swift */; };
+		E8F6F6DF1F1E599F00945414 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8F6F6D61F1E599F00945414 /* Info.plist */; };
+		E8F6F6E01F1E599F00945414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6D71F1E599F00945414 /* ViewController.swift */; };
+		E8F6F6E51F1E7DF900945414 /* TripMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6E41F1E7DF900945414 /* TripMapViewController.swift */; };
+		E8F6F6E71F1E86D000945414 /* CountryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6F6E61F1E86D000945414 /* CountryInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8693EC31F1B90F7000262AC /* TripDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8693EC61F1B90F7000262AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8693EC81F1B90F7000262AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8693ECB1F1B90F7000262AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E8693ECD1F1B90F7000262AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E8693ED01F1B90F7000262AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E8693ED21F1B90F7000262AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6F6CD1F1E599F00945414 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8F6F6CE1F1E599F00945414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F6F6D01F1E599F00945414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8F6F6D21F1E599F00945414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8F6F6D31F1E599F00945414 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E8F6F6D41F1E599F00945414 /* ContactsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableTableViewController.swift; sourceTree = "<group>"; };
+		E8F6F6D51F1E599F00945414 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E8F6F6D61F1E599F00945414 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6F6D71F1E599F00945414 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8F6F6E41F1E7DF900945414 /* TripMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripMapViewController.swift; path = ../TripMapViewController.swift; sourceTree = "<group>"; };
+		E8F6F6E61F1E86D000945414 /* CountryInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +49,7 @@
 		E8693EBA1F1B90F7000262AC = {
 			isa = PBXGroup;
 			children = (
-				E8693EC51F1B90F7000262AC /* TripDashboard */,
+				E8F6F6CC1F1E599F00945414 /* TripDashboard */,
 				E8693EC41F1B90F7000262AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +62,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8693EC51F1B90F7000262AC /* TripDashboard */ = {
+		E8F6F6CC1F1E599F00945414 /* TripDashboard */ = {
 			isa = PBXGroup;
 			children = (
-				E8693EC61F1B90F7000262AC /* AppDelegate.swift */,
-				E8693EC81F1B90F7000262AC /* ViewController.swift */,
-				E8693ECA1F1B90F7000262AC /* Main.storyboard */,
-				E8693ECD1F1B90F7000262AC /* Assets.xcassets */,
-				E8693ECF1F1B90F7000262AC /* LaunchScreen.storyboard */,
-				E8693ED21F1B90F7000262AC /* Info.plist */,
+				E8F6F6CD1F1E599F00945414 /* AppDelegate.swift */,
+				E8F6F6CE1F1E599F00945414 /* Assets.xcassets */,
+				E8F6F6CF1F1E599F00945414 /* LaunchScreen.storyboard */,
+				E8F6F6D11F1E599F00945414 /* Main.storyboard */,
+				E8F6F6E41F1E7DF900945414 /* TripMapViewController.swift */,
+				E8F6F6E61F1E86D000945414 /* CountryInfoViewController.swift */,
+				E8F6F6D31F1E599F00945414 /* Contact.swift */,
+				E8F6F6D41F1E599F00945414 /* ContactsTableTableViewController.swift */,
+				E8F6F6D51F1E599F00945414 /* DetailViewController.swift */,
+				E8F6F6D61F1E599F00945414 /* Info.plist */,
+				E8F6F6D71F1E599F00945414 /* ViewController.swift */,
 			);
-			path = TripDashboard;
+			name = TripDashboard;
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +113,7 @@
 				TargetAttributes = {
 					E8693EC21F1B90F7000262AC = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8693ED11F1B90F7000262AC /* LaunchScreen.storyboard in Resources */,
-				E8693ECE1F1B90F7000262AC /* Assets.xcassets in Resources */,
-				E8693ECC1F1B90F7000262AC /* Main.storyboard in Resources */,
+				E8F6F6DF1F1E599F00945414 /* Info.plist in Resources */,
+				E8F6F6DB1F1E599F00945414 /* Main.storyboard in Resources */,
+				E8F6F6DA1F1E599F00945414 /* LaunchScreen.storyboard in Resources */,
+				E8F6F6D91F1E599F00945414 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +155,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8693EC91F1B90F7000262AC /* ViewController.swift in Sources */,
-				E8693EC71F1B90F7000262AC /* AppDelegate.swift in Sources */,
+				E8F6F6E51F1E7DF900945414 /* TripMapViewController.swift in Sources */,
+				E8F6F6DC1F1E599F00945414 /* Contact.swift in Sources */,
+				E8F6F6E71F1E86D000945414 /* CountryInfoViewController.swift in Sources */,
+				E8F6F6E01F1E599F00945414 /* ViewController.swift in Sources */,
+				E8F6F6D81F1E599F00945414 /* AppDelegate.swift in Sources */,
+				E8F6F6DD1F1E599F00945414 /* ContactsTableTableViewController.swift in Sources */,
+				E8F6F6DE1F1E599F00945414 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E8693ECA1F1B90F7000262AC /* Main.storyboard */ = {
+		E8F6F6CF1F1E599F00945414 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E8693ECB1F1B90F7000262AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E8693ECF1F1B90F7000262AC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8693ED01F1B90F7000262AC /* Base */,
+				E8F6F6D01F1E599F00945414 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8F6F6D11F1E599F00945414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F6F6D21F1E599F00945414 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TripDashboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Stephanie.TripDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TripDashboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +301,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TripDashboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Stephanie.TripDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TripDashboard-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +330,7 @@
 				E8693ED71F1B90F7000262AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
